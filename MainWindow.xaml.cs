@@ -13,11 +13,14 @@ namespace WpfApp1
 
         private void Distance_Click(object sender, RoutedEventArgs e)
         {
-            // Проверка ввода
-            bool ok1 = double.TryParse(X1.Text, out double x1);
-            bool ok2 = double.TryParse(Y1.Text, out double y1);
-            bool ok3 = double.TryParse(X2.Text, out double x2);
-            bool ok4 = double.TryParse(Y2.Text, out double y2);
+            double x1 = 0;
+            double y1 = 0;
+            double x2 = 0;
+            double y2 = 0;
+            bool ok1 = double.TryParse(X1.Text, out x1);
+            bool ok2 = double.TryParse(Y1.Text, out y1);
+            bool ok3 = double.TryParse(X2.Text, out x2);
+            bool ok4 = double.TryParse(Y2.Text, out y2);
 
             if (!ok1 || !ok2 || !ok3 || !ok4)
             {
@@ -35,11 +38,14 @@ namespace WpfApp1
 
         private void Operation_Click(object sender, RoutedEventArgs e)
         {
-            // Проверка ввода
-            bool ok1 = double.TryParse(X1.Text, out double x1);
-            bool ok2 = double.TryParse(Y1.Text, out double y1);
-            bool ok3 = double.TryParse(X2.Text, out double x2);
-            bool ok4 = double.TryParse(Y2.Text, out double y2);
+            double x1 = 0;
+            double y1 = 0;
+            double x2 = 0;
+            double y2 = 0;
+            bool ok1 = double.TryParse(X1.Text, out x1);
+            bool ok2 = double.TryParse(Y1.Text, out y1);
+            bool ok3 = double.TryParse(X2.Text, out x2);
+            bool ok4 = double.TryParse(Y2.Text, out y2);
 
             if (!ok1 || !ok2 || !ok3 || !ok4)
             {
